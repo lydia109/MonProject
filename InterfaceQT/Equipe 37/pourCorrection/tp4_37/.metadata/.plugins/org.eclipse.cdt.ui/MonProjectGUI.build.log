@@ -1,9 +1,0 @@
-09:05:27 **** Incremental Build of project MonProjectGUI ****
-make debug 
-make -f Makefile.Debug
-make[1] : on entre dans le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
-make[1]: rien à faire pour « first ».
-make[1] : on quitte le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
-
-09:05:28 Build Finished (took 806ms)
-
