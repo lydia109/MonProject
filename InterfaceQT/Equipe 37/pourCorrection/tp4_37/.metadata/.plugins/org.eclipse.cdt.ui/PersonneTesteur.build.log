@@ -1,0 +1,10 @@
+09:05:01 **** Incremental Build of configuration Debug for project PersonneTesteur ****
+make all 
+Building target: PersonneTesteur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/source/Debug" -o "PersonneTesteur"  ./PersonneTesteur.o   -lsource -lgtest_main -lgtest -lpthread
+Finished building target: PersonneTesteur
+ 
+
+09:05:02 Build Finished (took 1s.215ms)
+

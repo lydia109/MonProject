@@ -1,0 +1,135 @@
+09:13:12 **** Build of configuration Debug for project source ****
+make all 
+make: rien à faire pour « all ».
+09:13:14 **** Build of project MonProjectGUI ****
+make debug 
+make -f Makefile.Debug
+make[1] : on entre dans le répertoire « /home/etudiant/Bureau/tp4_37/MonProjectGUI »
+make[1]: rien à faire pour « first ».
+make[1] : on quitte le répertoire « /home/etudiant/Bureau/tp4_37/MonProjectGUI »
+09:13:20 **** Incremental Build of configuration Debug for project source ****
+make all 
+make: rien à faire pour « all ».
+09:13:21 **** Incremental Build of project MonProjectGUI ****
+make debug 
+make -f Makefile.Debug
+make[1] : on entre dans le répertoire « /home/etudiant/Bureau/tp4_37/MonProjectGUI »
+make[1]: rien à faire pour « first ».
+make[1] : on quitte le répertoire « /home/etudiant/Bureau/tp4_37/MonProjectGUI »
+19:10:25 **** Build of configuration Debug for project AnnuaireTesteur ****
+make all 
+make: rien à faire pour « all ».
+19:10:26 **** Build of configuration Debug for project EntraineurTesteur ****
+make all 
+make: rien à faire pour « all ».
+19:10:27 **** Clean-only build of configuration Debug for project JoueurTesteur ****
+make clean 
+rm -rf  ./JoueurTesteur.o  ./JoueurTesteur.d  JoueurTesteur
+ 
+19:10:29 **** Build of configuration Debug for project JoueurTesteur ****
+make all 
+Building file: ../JoueurTesteur.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -I"/home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/source" -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"JoueurTesteur.d" -MT"JoueurTesteur.o" -o "JoueurTesteur.o" "../JoueurTesteur.cpp"
+Finished building: ../JoueurTesteur.cpp
+ 
+Building target: JoueurTesteur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/source/Debug" -o "JoueurTesteur"  ./JoueurTesteur.o   -lsource -lgtest_main -lgtest -lpthread
+Finished building target: JoueurTesteur
+ 
+19:10:32 **** Build of configuration Debug for project PersonneTesteur ****
+make all 
+make: rien à faire pour « all ».
+19:10:34 **** Incremental Build of configuration Debug for project source ****
+make all 
+Building file: ../Annuaire.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Annuaire.d" -MT"Annuaire.o" -o "Annuaire.o" "../Annuaire.cpp"
+Finished building: ../Annuaire.cpp
+ 
+Building file: ../Entraineur.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Entraineur.d" -MT"Entraineur.o" -o "Entraineur.o" "../Entraineur.cpp"
+Finished building: ../Entraineur.cpp
+ 
+Building file: ../Joueur.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"Joueur.d" -MT"Joueur.o" -o "Joueur.o" "../Joueur.cpp"
+Finished building: ../Joueur.cpp
+ 
+Building file: ../PersonneException.cpp
+Invoking: GCC C++ Compiler
+g++ -std=c++1y -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"PersonneException.d" -MT"PersonneException.o" -o "PersonneException.o" "../PersonneException.cpp"
+Finished building: ../PersonneException.cpp
+ 
+Building target: libsource.a
+Invoking: GCC Archiver
+ar -r  "libsource.a"  ./Annuaire.o ./ContratException.o ./Date.o ./Entraineur.o ./Joueur.o ./Personne.o ./PersonneException.o ./validationFormat.o   
+ar: création de libsource.a
+Finished building target: libsource.a
+ 
+19:10:38 **** Incremental Build of project MonProjectGUI ****
+make debug 
+make -f Makefile.Debug
+make[1] : on entre dans le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+make[1]: rien à faire pour « first ».
+make[1] : on quitte le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+19:10:47 **** Incremental Build of configuration Debug for project source ****
+make all 
+make: rien à faire pour « all ».
+19:10:48 **** Incremental Build of project MonProjectGUI ****
+make debug 
+make -f Makefile.Debug
+make[1] : on entre dans le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+make[1]: rien à faire pour « first ».
+make[1] : on quitte le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+09:04:56 **** Incremental Build of configuration Debug for project AnnuaireTesteur ****
+make all 
+Building target: AnnuaireTesteur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/source/Debug" -o "AnnuaireTesteur"  ./AnnuaireTesteur.o   -lsource -lgtest_main -lgtest -lpthread
+Finished building target: AnnuaireTesteur
+ 
+09:04:59 **** Incremental Build of configuration Debug for project EntraineurTesteur ****
+make all 
+Building target: EntraineurTesteur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/source/Debug" -o "EntraineurTesteur"  ./EntraineurTesteur.o   -lsource -lgtest_main -lgtest -lpthread
+Finished building target: EntraineurTesteur
+ 
+09:05:00 **** Incremental Build of configuration Debug for project JoueurTesteur ****
+make all 
+Building target: JoueurTesteur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/source/Debug" -o "JoueurTesteur"  ./JoueurTesteur.o   -lsource -lgtest_main -lgtest -lpthread
+Finished building target: JoueurTesteur
+ 
+09:05:01 **** Incremental Build of configuration Debug for project PersonneTesteur ****
+make all 
+Building target: PersonneTesteur
+Invoking: GCC C++ Linker
+g++ -L"/home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/source/Debug" -o "PersonneTesteur"  ./PersonneTesteur.o   -lsource -lgtest_main -lgtest -lpthread
+Finished building target: PersonneTesteur
+ 
+09:05:03 **** Incremental Build of configuration Debug for project source ****
+make all 
+make: rien à faire pour « all ».
+09:05:04 **** Incremental Build of project MonProjectGUI ****
+make debug 
+make -f Makefile.Debug
+make[1] : on entre dans le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+make[1]: rien à faire pour « first ».
+make[1] : on quitte le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+09:05:26 **** Incremental Build of configuration Debug for project source ****
+make all 
+make: rien à faire pour « all ».
+09:05:27 **** Incremental Build of project MonProjectGUI ****
+make debug 
+make -f Makefile.Debug
+make[1] : on entre dans le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+make[1]: rien à faire pour « first ».
+make[1] : on quitte le répertoire « /home/etudiant/Bureau/H20_GIF_1003_tp4 2/Equipe 37/pourCorrection/tp4_37/MonProjectGUI »
+09:21:41 **** Incremental Build of configuration Debug for project AnnuaireTesteur ****
+make all 
+make: rien à faire pour « all ».
